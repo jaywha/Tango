@@ -90,6 +90,7 @@
     <Compile Include="Commands\Data\PropMoveCommand.cs" />
     <Compile Include="Commands\Data\PropReleaseCommand.cs" />
     <Compile Include="Commands\Data\ParkReleaseCommand.cs" />
+    <Compile Include="Commands\Data\SyncModsCommand.cs" />
     <Compile Include="Commands\Data\TerrainModificationCommand.cs" />
     <Compile Include="Commands\Data\TreeMoveCommand.cs" />
     <Compile Include="Commands\Data\NodeCreateCommand.cs" />
@@ -140,6 +141,7 @@
     <Compile Include="Commands\Handler\PauseHandler.cs" />
     <Compile Include="Commands\Handler\SegmentReleaseHandler.cs" />
     <Compile Include="Commands\Handler\SpeedHandler.cs" />
+    <Compile Include="Commands\Handler\SyncModsHandler.cs" />
     <Compile Include="Commands\Handler\TaxRateChangeHandler.cs" />
     <Compile Include="Commands\Handler\NodeUpdateHandler.cs" />
     <Compile Include="Commands\Handler\TerrainModificationHandler.cs" />
@@ -150,10 +152,10 @@
     <Compile Include="Commands\Handler\WorldInfoHandler.cs" />
     <Compile Include="Commands\Handler\ZoneUpdateHandler.cs" />
     <Compile Include="Common\ChatCommand.cs" />
-	<Compile Include="Common\ReflectionHelper.cs" />
+    <Compile Include="Common\ReflectionHelper.cs" />
     <Compile Include="Common\ToolSimulator.cs" />
-	<Compile Include="Common\WorldManager.cs" />
-	<Compile Include="Extensions\AreaExtension.cs" />
+    <Compile Include="Common\WorldManager.cs" />
+    <Compile Include="Extensions\AreaExtension.cs" />
     <Compile Include="Extensions\BuildingExtension.cs" />
     <Compile Include="Extensions\DemandExtension.cs" />
     <Compile Include="Extensions\EconomyExtension.cs" />
